@@ -1,0 +1,15 @@
+.btns {
+	gap: 10px;
+}
+
+.error {
+	color: red;
+}
+
+.card {
+	background-color: rgb(30, 208, 30) !important;
+}
+
+.new-card {
+	background-color: #ddd !important;
+}

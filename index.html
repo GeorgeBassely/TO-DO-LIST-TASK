@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="styles/bootstrap.css" />
+	</head>
+	<body>
+		<h1 class="title text-center">to do list</h1>
+
+		<form id="addForm" class="main-form container mb-3">
+			<div class="form-group">
+				<input
+					placeholder="title"
+					name="title"
+					id="title-input"
+					class="form-control"
+				/>
+				<div id="title-error" class="error"></div>
+			</div>
+
+			<div>
+				<textarea
+					placeholder="discription"
+					name="discription"
+					class="form-control"
+					id="discription-input"
+				></textarea>
+				<div id="discription-error" class="error"></div>
+			</div>
+			<button class="btn btn-primary mt-2" id="control">Add Form</button>
+		</form>
+
+		<div class="container">
+			<div class="row cards-container"></div>
+		</div>
+
+		<script src="scripts/script.js"></script>
+		<script src="scripts/jquery-3.7.0.min.js"></script>
+		<script src="scripts/bootstrap.bundle.js"></script>
+	</body>
+</html>
